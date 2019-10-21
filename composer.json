@@ -1,0 +1,32 @@
+{
+  "name": "dcr/service-common",
+  "type": "library",
+  "description": "common service",
+  "keywords": ["common", "service"],
+  "homepage": "https://github.com/zouxiang0639/service-common",
+  "authors": [
+    {
+      "name": "zouxiang",
+      "email": "xiang.zou@54traveler.com",
+      "homepage": "https://54traveler.com/"
+    }
+  ],
+  "autoload":{
+    "psr-4": {
+      "Dcr\\Service\\Common\\": "src/"
+    },
+    "files": [
+      "src/Library/Helpers.php"
+    ]
+  },
+
+  "require":{
+    "laravel/framework": "~5.1"
+  },
+  "require-dev": {
+  },
+  "minimum-stability": "stable",
+  "config": {
+      "secure-http": false
+  }
+}
