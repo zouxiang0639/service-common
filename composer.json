@@ -21,7 +21,6 @@
   },
 
   "require":{
-    "laravel/framework": "~5.1"
   },
   "require-dev": {
   },
